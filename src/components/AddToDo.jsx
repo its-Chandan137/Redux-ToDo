@@ -39,12 +39,14 @@ function AddToDo() {
         className='inputBox1'
         value={input}
         onKeyDown={handleKeyDown}
+        placeholder='Title...'
         onChange={(e) => setInput(e.target.value)}  />
 
         <input type="text" 
         className='inputBox2'
         value={input2}
         onKeyDown={handleKeyDown}
+        placeholder='Description...'
         onChange={(e) => setInput2(e.target.value)}  />
 
         <button type='submit'
