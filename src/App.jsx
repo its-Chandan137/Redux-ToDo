@@ -1,0 +1,15 @@
+import React from 'react'
+import './Styles.css'
+import Todos from './components/Todos'
+import AddToDo from './components/AddToDo'
+
+function App() {
+  return (
+    <div className='App'>
+      <AddToDo/>
+      <Todos/>
+    </div>
+  )
+}
+
+export default App
